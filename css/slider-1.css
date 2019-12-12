@@ -1,0 +1,10 @@
+/* 추천 메뉴 슬라이더 */
+
+.slider1 , .slider2 {
+    opacity: 0;
+    z-index: -1;
+    transition-duration: 2s;
+}
+.slider1.show, .slider2.show {
+    opacity: 1;
+}
