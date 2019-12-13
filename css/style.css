@@ -116,6 +116,39 @@ body {
   color: #bf2428;
 }
 
+/* 팝업창 */
+.popup.show {
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+  /* outline: 1px solid red; */
+  position: relative;
+}
+.popup.show img {
+  position: absolute;
+  right: -100px; top: -100px;
+  width: 350px;
+  z-index: 99;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+.popup {
+  display: none;
+}
+#close_pop {
+  z-index: 999;
+  width: 50px; height: 30px;
+  position: absolute;
+  right: -95px; top: -95px;
+  background: #fff;
+  border-style: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+#close_pop:hover {
+  font-size: 15px;
+  font-weight: bold;
+}
+
 /* 매인 배너 */
 #main_banner {
   clear: both;
