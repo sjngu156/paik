@@ -14,3 +14,13 @@ $(function(){
         $('.depth2').removeClass('show');
     });
 });
+
+$(function() {
+    // 팝업창 표시 (기본)
+    $('.popup').addClass('show');
+
+    // 닫기 버튼을 누르면 팝업창 종료
+    $('#close_pop').click(function() {
+        $('.popup').removeClass('show');
+    });
+});
