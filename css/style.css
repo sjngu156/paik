@@ -167,7 +167,7 @@ body {
 
 #news .col2 {
   position: relative;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 #news .col2 #search_store {
   position: absolute;
